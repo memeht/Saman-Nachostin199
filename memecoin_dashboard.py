@@ -109,7 +109,6 @@ def dashboard():
     """
     return render_template_string(html)
 
-if __name__ == '__main__':
     if __name__ == '__main__':
     import os
     port = int(os.environ.get("PORT", 5000))
